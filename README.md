@@ -33,13 +33,16 @@ Usually, a `dist` folder would not be pushed to your repo, as it should be gener
 
 ## Uglify and Minify Commands
 
-    # Minify HTML
+#### Minify HTML
+
     html-minifier index.html --remove-comments --collapse-whitespace --remove-empty-attributes --remove-style-link-type-attributes --lint --case-sensitive --output index.min.html
 
-    # Minify CSS
+### Minify CSS
+
     csso style.css style2.css -o style.min.css
 
-    # Uglify and Minify JS
+### Uglify and Minify JS
+
     uglifyjs main.js main2.js --compress --mangle --output main.min.js
 
 ## Solution

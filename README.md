@@ -17,6 +17,7 @@ To create this app, several steps are needed which are time consuming an error p
 * Minify the HTML
 * Set up a dist folder
 * Copy uglified and minified HTML, JS and CSS to dist folder
+* Update the links in the HTML so that they point at the minified JS and CSS
 * Copy all other necessary assets (e.g. images, scripts) exist in dist folder
 
 In all of the above steps, there is **only one** that truly interests us as developers, and that is:

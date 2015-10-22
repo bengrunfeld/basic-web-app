@@ -8,6 +8,7 @@ To create this app, several steps are needed which are time consuming an error p
 
 * Download Bootstrap
 * Download jQuery
+* Use NPM to globally install UglifyJS and CSSO
 * Link HTML files to CSS and JS files
 * Write HTML, CSS and JS boilerplate 
 * Test the app in a Browser to ensure that all the pieces are working and playing nice
@@ -18,7 +19,7 @@ To create this app, several steps are needed which are time consuming an error p
 * Set up a dist folder
 * Copy uglified and minified HTML, JS and CSS to dist folder
 * Update the links in the HTML so that they point at the minified JS and CSS
-* Copy all other necessary assets (e.g. images, scripts) exist in dist folder
+* Make sure that all other necessary assets (e.g. images, scripts) exist in dist folder
 
 In all of the above steps, there is **only one** that truly interests us as developers, and that is:
 

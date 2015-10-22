@@ -8,7 +8,7 @@ To create this app, several steps are needed which are time consuming an error p
 
 * Download Bootstrap
 * Download jQuery
-* Use NPM to globally install UglifyJS2, CSSO and Minify-HTML
+* Use NPM to globally install [UglifyJS2](https://www.npmjs.com/package/uglify-js), [CSSO](https://www.npmjs.com/package/csso) and [Minify-HTML](https://www.npmjs.com/package/html-minifier)
 * Link HTML files to CSS and JS files
 * Write HTML, CSS and JS boilerplate 
 * Test the app in a Browser to ensure that all the pieces are working and playing nice
@@ -33,15 +33,15 @@ Usually, a `dist` folder would not be pushed to your repo, as it should be gener
 
 ## Uglify and Minify Commands
 
-#### Minify HTML
+**Minify HTML**
 
     html-minifier index.html --remove-comments --collapse-whitespace --remove-empty-attributes --remove-style-link-type-attributes --lint --case-sensitive --output index.min.html
 
-### Minify CSS
+**Minify CSS**
 
     csso style.css style2.css -o style.min.css
 
-### Uglify and Minify JS
+**Uglify and Minify JS**
 
     uglifyjs main.js main2.js --compress --mangle --output main.min.js
 

@@ -1,0 +1,25 @@
+{
+  "name": "basic-web-app",
+  "version": "1.0.0",
+  "description": "This is a basic web app whose purpose is to illustrate the speed advantages of using automation and automation tools, such as Yeoman, Grunt and Bower, over the manual approach used here.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bengrunfeld/basic-web-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bengrunfeld/basic-web-app/issues"
+  },
+  "homepage": "https://github.com/bengrunfeld/basic-web-app#readme",
+  "devDependencies": {
+    "csso": "^1.4.1",
+    "html-minifier": "^1.0.0",
+    "jshint": "^2.8.0",
+    "uglify-js": "^2.5.0"
+  }
+}
